@@ -173,3 +173,23 @@ nav a:hover {
   background-color: var(--accent-hover);
 }
 
+/* Estilo da Seção Sobre */
+
+#sobre {
+  padding: 5rem 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#sobre h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+#sobre p {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  max-width: 650px;
+}
+
