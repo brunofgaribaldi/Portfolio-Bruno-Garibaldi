@@ -1,3 +1,4 @@
+/* Reset básico + variáveis de cor */
 :root {
   --bg-color: #fafafa;
   --bg-secondary: #ffffff;
@@ -7,7 +8,7 @@
   --accent-hover: #1d4ed8;
   --border-color: #e5e7eb;
 
-  --font-main: 'Inter', sans-serif;
+  --font-main: "Inter", sans-serif;
 }
 
 * {
@@ -22,6 +23,8 @@ body {
   color: var(--text-color);
   line-height: 1.6;
 }
+
+/* Estilo do Header */
 
 header {
   display: flex;
@@ -88,6 +91,8 @@ nav a:hover {
   background-color: var(--bg-color);
 }
 
+/* Estilo do Hero */
+
 #hero {
   display: flex;
   flex-direction: column;
@@ -127,3 +132,44 @@ nav a:hover {
 .btn-cta:hover {
   background-color: var(--accent-hover);
 }
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 6rem 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#hero h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+#hero p {
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.btn-cta {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  padding: 0.9rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.btn-cta:hover {
+  background-color: var(--accent-hover);
+}
+
