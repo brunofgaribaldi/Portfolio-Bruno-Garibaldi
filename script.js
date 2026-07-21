@@ -12,3 +12,13 @@ themeToggle.addEventListener("click", () => {
   }
 });
 
+/* Mensagem de agradecimento */
+
+const contactForm = document.getElementById("contact-form");
+
+contactForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  // Aqui vamos mostrar a mensagem de agradecimento
+  alert("Obrigado pela mensagem! Em breve entrarei em contato.");
+});
